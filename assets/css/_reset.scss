@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&family=Roboto:wght@300;400;500&display=swap');
+body{
+	font-family: $roboto;
+
+}
+img {
+	// width: 100%;
+	transition: $tran;
+}
+.nopadding{
+	padding: 0;
+}
+input:focus-visible{
+	outline: 0;
+}
+.f-left {
+	float: left
+}
+.f-right {
+	float: right
+}
+.fix {
+	overflow: hidden
+}
+a{
+	text-decoration: none;
+	font-size: 14px;
+	display: inline-block;
+}
+a:hover{
+	color: $textColor;
+}
+a,
+.button {
+	transition: $tran;
+}
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $prata ;
+	font-weight: normal;
+}
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+	font-size: inherit;
+}
+h1 {
+	font-size: 50px;
+}
+h2 {
+	font-size: 35px;
+}
+h3 {
+	font-size: 24px;
+}
+h4 {
+	font-size: 22px;
+}
+h5 {
+	font-size: 18px;
+}
+h6 {
+	font-size: 14px;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style: none;
+	display: inline-block;
+}
+p {
+	font-size: 18px;
+	line-height: 30px;
+	font-family: $roboto;
+}
+label {
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+}
+::selection {
+	background: $mainColor;
+}
+.all-btn{
+	font-size: 14px;
+	font-family: $roboto;
+	background-color: $mainColor;
+	text-transform: $textUp;
+	color: $textColor;
+	padding: 20px 50px;
+	font-weight: 500;
+	&:hover{
+		color: $hover;
+	}
+}
+.sticky{
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	box-shadow: 0 10px 10px 0 #00000078;
+
+}
+
+
